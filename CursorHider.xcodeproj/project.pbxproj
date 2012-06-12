@@ -1,0 +1,217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EB8D5111587EF0B00B8F044 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8D5101587EF0B00B8F044 /* main.c */; };
+		2EB8D51A1587EF3200B8F044 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB8D5191587EF3200B8F044 /* ApplicationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EB8D50A1587EF0B00B8F044 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EB8D50C1587EF0B00B8F044 /* CursorHider */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CursorHider; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB8D5101587EF0B00B8F044 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2EB8D5191587EF3200B8F044 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB8D5091587EF0B00B8F044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB8D51A1587EF3200B8F044 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB8D5011587EF0A00B8F044 = {
+			isa = PBXGroup;
+			children = (
+				2EB8D50F1587EF0B00B8F044 /* CursorHider */,
+				2EB8D50D1587EF0B00B8F044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB8D50D1587EF0B00B8F044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EB8D50C1587EF0B00B8F044 /* CursorHider */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EB8D50F1587EF0B00B8F044 /* CursorHider */ = {
+			isa = PBXGroup;
+			children = (
+				2EB8D5191587EF3200B8F044 /* ApplicationServices.framework */,
+				2EB8D5101587EF0B00B8F044 /* main.c */,
+			);
+			path = CursorHider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB8D50B1587EF0B00B8F044 /* CursorHider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB8D5161587EF0B00B8F044 /* Build configuration list for PBXNativeTarget "CursorHider" */;
+			buildPhases = (
+				2EB8D5081587EF0B00B8F044 /* Sources */,
+				2EB8D5091587EF0B00B8F044 /* Frameworks */,
+				2EB8D50A1587EF0B00B8F044 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CursorHider;
+			productName = CursorHider;
+			productReference = 2EB8D50C1587EF0B00B8F044 /* CursorHider */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB8D5031587EF0A00B8F044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Rockwell Group";
+			};
+			buildConfigurationList = 2EB8D5061587EF0A00B8F044 /* Build configuration list for PBXProject "CursorHider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EB8D5011587EF0A00B8F044;
+			productRefGroup = 2EB8D50D1587EF0B00B8F044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB8D50B1587EF0B00B8F044 /* CursorHider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB8D5081587EF0B00B8F044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB8D5111587EF0B00B8F044 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EB8D5141587EF0B00B8F044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)";
+				INSTALL_PATH = "$(SRCROOT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = "$(SRCROOT)";
+			};
+			name = Debug;
+		};
+		2EB8D5151587EF0B00B8F044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)";
+				INSTALL_PATH = "$(SRCROOT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				SYMROOT = "$(SRCROOT)";
+			};
+			name = Release;
+		};
+		2EB8D5171587EF0B00B8F044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EB8D5181587EF0B00B8F044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB8D5061587EF0A00B8F044 /* Build configuration list for PBXProject "CursorHider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB8D5141587EF0B00B8F044 /* Debug */,
+				2EB8D5151587EF0B00B8F044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB8D5161587EF0B00B8F044 /* Build configuration list for PBXNativeTarget "CursorHider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB8D5171587EF0B00B8F044 /* Debug */,
+				2EB8D5181587EF0B00B8F044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EB8D5031587EF0A00B8F044 /* Project object */;
+}
