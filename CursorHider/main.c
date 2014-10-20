@@ -4,7 +4,6 @@
 //
 // Thanks, stackoverflow: http://stackoverflow.com/questions/3885896/globally-hiding-cursor-from-background-app
 //  Created by Brett Renfer on 6/12/12.
-//  Copyright (c) 2012 Rockwell Group. All rights reserved.
 //
 
 #include <ApplicationServices/ApplicationServices.h>
